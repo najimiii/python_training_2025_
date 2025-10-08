@@ -1,7 +1,8 @@
 {
     "contacts": [
             {"name": "Alice", "phone": "123-456-7890"},
-            {"name": "Bob", "phone": "987-654-3210"}
+            {"name": "Bob", "phone": "987-654-3210"},
+            {"name": "Jane Doe", "phone": "12-567-3487"}
         ]
     }
 

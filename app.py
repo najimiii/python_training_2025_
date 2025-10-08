@@ -2,7 +2,7 @@
 from controller.address_book import Contacts
 
 try:
-    Contacts("json").search_contacts("Alice")
+    Contacts("json").search_contacts("Jane")
     #Contacts().display_contacts("db")
 
 except Exception as ex:
