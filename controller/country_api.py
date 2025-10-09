@@ -2,6 +2,6 @@ from fastapi import APIRouter
 
 router = APIRouter(tags=["Countries API"])
 
-@router.get("/countries")
+@router.get("/country-codes")
 def get_country_codes():
-    return ["+63 - Phil"]
+    return ["+63 - Philippines", "+1 - United States"]
