@@ -1,0 +1,225 @@
+INFO:root:This is an info
+WARNING:root:This is a warning
+ERROR:root:This is an error
+INFO:root:This is an info
+WARNING:root:This is a warning
+DEBUG:root:This is a debug
+ERROR:root:This is an error
+INFO:MyApp:This is an info
+WARNING:MyApp:This is a warning
+DEBUG:MyApp:This is a debug
+ERROR:MyApp:This is an error
+2025-10-09 10:38:24,293 - MyApp - INFO - This is an info
+2025-10-09 10:38:24,293 - MyApp - WARNING - This is a warning
+2025-10-09 10:38:24,293 - MyApp - DEBUG - This is a debug
+2025-10-09 10:38:24,293 - MyApp - ERROR - This is an error
+2025-10-09 10:45:31,978 - MyApp - INFO - logging_intro.py:test_logs:: - This is an info
+2025-10-09 10:45:31,979 - MyApp - WARNING - logging_intro.py:test_logs:: - This is a warning
+2025-10-09 10:45:31,979 - MyApp - DEBUG - logging_intro.py:test_logs:: - This is a debug
+2025-10-09 10:45:31,979 - MyApp - ERROR - logging_intro.py:test_logs:: - This is an error
+2025-10-09 11:07:40,478 - MyApp - INFO - logging_intro.py:<module>:: - test 1
+2025-10-09 11:07:40,478 - MyApp - INFO - logging_intro.py:<module>:: - test 2
+2025-10-09 11:07:40,478 - MyApp - INFO - logging_intro.py:<module>:: - test 3
+2025-10-09 11:11:33,379 - MyApp - INFO - address_book_api.py:display_contacts:: - Begin display contacts
+2025-10-09 11:12:03,985 - MyApp - INFO - address_book_api.py:search_contacts:: - Begin search contacts for jane
+2025-10-09 11:43:50,208 - MyApp - INFO - logging_intro.py:wrapper::6 - Begin: <function test at 0x77d2abf8dc60> -- [()] -- [{'v1': 1, 'v2': 2}]
+2025-10-09 11:43:50,208 - MyApp - INFO - logging_intro.py:wrapper::8 - End: test
+2025-10-09 11:43:50,406 - MyApp - INFO - logging_intro.py:wrapper::6 - Begin: <function test at 0x75b486d75440> -- [()] -- [{'v1': 1, 'v2': 2}]
+2025-10-09 11:43:50,406 - MyApp - INFO - logging_intro.py:wrapper::8 - End: test
+2025-10-09 11:45:17,558 - MyApp - INFO - logging_intro.py:wrapper::6 - Begin: test -- [()] -- [{'v1': 1, 'v2': 2}]
+2025-10-09 11:45:17,563 - MyApp - INFO - logging_intro.py:wrapper::8 - End: test
+2025-10-09 11:45:20,752 - MyApp - INFO - logging_intro.py:wrapper::6 - Begin: test -- [()] -- [{'v1': 1, 'v2': 2}]
+2025-10-09 11:45:20,752 - MyApp - INFO - logging_intro.py:wrapper::8 - End: test
+2025-10-09 11:51:24,997 - MyApp - INFO - logger.py:wrapper::26 - Begin: display_contacts
+2025-10-09 11:51:24,997 - MyApp - INFO - logger.py:wrapper::27 - [()] -- [{}]
+2025-10-09 11:51:24,997 - MyApp - INFO - logger.py:wrapper::29 - End: display_contacts
+2025-10-09 11:51:42,500 - MyApp - INFO - logger.py:wrapper::26 - Begin: search_contacts
+2025-10-09 11:51:42,500 - MyApp - INFO - logger.py:wrapper::27 - [()] -- [{'keyword': 'percy'}]
+2025-10-09 11:51:42,501 - MyApp - INFO - logger.py:wrapper::29 - End: search_contacts
+2025-10-09 11:54:17,121 - MyApp - INFO - logger.py:wrapper::26 - Begin: display_contacts
+2025-10-09 11:54:17,121 - MyApp - INFO - logger.py:wrapper::27 - [()] -- [{}]
+2025-10-09 11:54:17,121 - MyApp - INFO - logger.py:wrapper::26 - Begin: retrieve_contacts
+2025-10-09 11:54:17,121 - MyApp - INFO - logger.py:wrapper::27 - [(<bll.contacts_bll.ContactsBll object at 0x7d0d392c3bf0>,)] -- [{}]
+2025-10-09 11:54:17,121 - MyApp - INFO - logger.py:wrapper::26 - Begin: retrieve_contacts
+2025-10-09 11:54:17,121 - MyApp - INFO - logger.py:wrapper::27 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7d0d3944ac60>,)] -- [{}]
+2025-10-09 11:54:17,122 - MyApp - INFO - logger.py:wrapper::29 - End: retrieve_contacts
+2025-10-09 11:54:17,122 - MyApp - INFO - logger.py:wrapper::29 - End: retrieve_contacts
+2025-10-09 11:54:17,122 - MyApp - INFO - logger.py:wrapper::29 - End: display_contacts
+2025-10-09 13:28:42,493 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:28:42,494 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:34:46,711 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:34:46,711 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:35:04,901 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:35:04,901 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:35:04,901 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:35:04,901 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7c32e2cc77d0>,)] -- [{}]
+2025-10-09 13:35:04,901 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:35:04,901 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7c32e2e661e0>,)] -- [{}]
+2025-10-09 13:35:04,901 - MyApp - INFO - logger.py:wrapper::28 - End: retrieve_contacts
+2025-10-09 13:35:34,345 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:35:34,345 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:35:34,346 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:35:34,346 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x704705f1f9e0>,)] -- [{}]
+2025-10-09 13:35:34,346 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:35:34,346 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x704706b03080>,)] -- [{}]
+2025-10-09 13:35:34,347 - MyApp - INFO - logger.py:wrapper::28 - End: retrieve_contacts
+2025-10-09 13:43:04,020 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:43:04,020 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:43:04,020 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:43:04,020 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7c756b623350>,)] -- [{}]
+2025-10-09 13:43:04,020 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:43:04,020 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7c756c376030>,)] -- [{}]
+2025-10-09 13:43:04,021 - MyApp - INFO - logger.py:wrapper::28 - End: retrieve_contacts
+2025-10-09 13:45:23,533 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:45:23,533 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:45:23,533 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:45:23,533 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7ef98ae23440>,)] -- [{}]
+2025-10-09 13:45:23,534 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:45:23,534 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7ef98af85fd0>,)] -- [{}]
+2025-10-09 13:45:23,534 - MyApp - INFO - logger.py:wrapper::28 - End: retrieve_contacts
+2025-10-09 13:48:54,509 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:48:54,509 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:48:54,509 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:48:54,509 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x750716bf0320>,)] -- [{}]
+2025-10-09 13:48:54,510 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:48:54,510 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x750716ac7c20>,)] -- [{}]
+2025-10-09 13:48:54,510 - MyApp - INFO - logger.py:wrapper::28 - End: retrieve_contacts
+2025-10-09 13:48:54,510 - MyApp - ERROR - address_book_api.py:display_contacts::18 - 'contact_no'
+2025-10-09 13:48:54,510 - MyApp - INFO - logger.py:wrapper::28 - End: display_contacts
+2025-10-09 13:49:16,232 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:49:16,233 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:49:16,233 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:49:16,233 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x77b757d27020>,)] -- [{}]
+2025-10-09 13:49:16,233 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:49:16,233 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x77b757d27230>,)] -- [{}]
+2025-10-09 13:49:16,233 - MyApp - INFO - logger.py:wrapper::28 - End: retrieve_contacts
+2025-10-09 13:49:16,233 - MyApp - ERROR - address_book_api.py:display_contacts::18 - 'contact_no'
+2025-10-09 13:49:16,233 - MyApp - INFO - logger.py:wrapper::28 - End: display_contacts
+2025-10-09 13:50:47,705 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:50:47,705 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:50:47,705 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:50:47,705 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7b33101abd70>,)] -- [{}]
+2025-10-09 13:50:47,705 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:50:47,705 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7b3310320320>,)] -- [{}]
+2025-10-09 13:50:47,705 - MyApp - INFO - logger.py:wrapper::28 - End: retrieve_contacts
+2025-10-09 13:50:47,705 - MyApp - ERROR - address_book_api.py:display_contacts::18 - 'contact_no'
+Traceback (most recent call last):
+  File "/home/citco/PYTHON101/python_training_2025_/controller/address_book_api.py", line 16, in display_contacts
+    response.data = contact_bll.retrieve_contacts().get("contacts", [])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/citco/PYTHON101/python_training_2025_/util/logger.py", line 27, in wrapper
+    result = function_pointer(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/citco/PYTHON101/python_training_2025_/bll/contacts_bll.py", line 16, in retrieve_contacts
+    result.append(Contact(name=record['name'], contact_no=record['contact_no']))
+                                                          ~~~~~~^^^^^^^^^^^^^^
+KeyError: 'contact_no'
+2025-10-09 13:50:47,706 - MyApp - INFO - logger.py:wrapper::28 - End: display_contacts
+2025-10-09 13:53:35,465 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:53:35,465 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:53:35,465 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:53:35,465 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7fdf2d14c9e0>,)] -- [{}]
+2025-10-09 13:53:35,465 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:53:35,465 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7fdf2d1332c0>,)] -- [{}]
+2025-10-09 13:53:35,465 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 13:53:35,465 - MyApp - ERROR - logger.py:wrapper::30 - 'contact_no'
+Traceback (most recent call last):
+  File "/home/citco/PYTHON101/python_training_2025_/util/logger.py", line 28, in wrapper
+    result = function_pointer(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/citco/PYTHON101/python_training_2025_/bll/contacts_bll.py", line 16, in retrieve_contacts
+    result.append(Contact(name=record['name'], contact_no=record['contact_no']))
+                                                          ~~~~~~^^^^^^^^^^^^^^
+KeyError: 'contact_no'
+2025-10-09 13:53:35,466 - MyApp - INFO - logger.py:wrapper::32 - End: display_contacts
+2025-10-09 13:56:06,980 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 13:56:06,980 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 13:56:06,980 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:56:06,980 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7a07634c7740>,)] -- [{}]
+2025-10-09 13:56:06,980 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 13:56:06,980 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7a07634d9850>,)] -- [{}]
+2025-10-09 13:56:06,981 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 13:56:06,981 - MyApp - ERROR - logger.py:wrapper::30 - Error in business layer
+Traceback (most recent call last):
+  File "/home/citco/PYTHON101/python_training_2025_/util/logger.py", line 28, in wrapper
+    result = function_pointer(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/citco/PYTHON101/python_training_2025_/bll/contacts_bll.py", line 17, in retrieve_contacts
+    raise Exception("Error in business layer")
+Exception: Error in business layer
+2025-10-09 13:56:06,982 - MyApp - INFO - logger.py:wrapper::32 - End: display_contacts
+2025-10-09 14:00:14,017 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 14:00:14,018 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 14:00:14,018 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:00:14,018 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7a07634c7740>,)] -- [{}]
+2025-10-09 14:00:14,018 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:00:14,018 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7a07634d9850>,)] -- [{}]
+2025-10-09 14:00:14,018 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 14:00:14,019 - MyApp - ERROR - logger.py:wrapper::30 - Error in business layer
+Traceback (most recent call last):
+  File "/home/citco/PYTHON101/python_training_2025_/util/logger.py", line 28, in wrapper
+    result = function_pointer(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/citco/PYTHON101/python_training_2025_/bll/contacts_bll.py", line 17, in retrieve_contacts
+    raise Exception("Error in business layer")
+Exception: Error in business layer
+2025-10-09 14:00:14,019 - MyApp - INFO - logger.py:wrapper::32 - End: display_contacts
+2025-10-09 14:00:53,713 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 14:00:53,713 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 14:00:53,713 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:00:53,713 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7e7256fc7260>,)] -- [{}]
+2025-10-09 14:00:53,713 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:00:53,713 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7e72583fcbf0>,)] -- [{}]
+2025-10-09 14:00:53,713 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 14:00:53,713 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 14:00:53,714 - MyApp - INFO - logger.py:wrapper::32 - End: display_contacts
+2025-10-09 14:01:12,399 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 14:01:12,399 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 14:01:12,399 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:01:12,399 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7ae5f5b1f9e0>,)] -- [{}]
+2025-10-09 14:01:12,399 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:01:12,399 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7ae5f5ce83e0>,)] -- [{}]
+2025-10-09 14:01:12,399 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 14:01:12,399 - MyApp - ERROR - logger.py:wrapper::30 - Error in business layer
+Traceback (most recent call last):
+  File "/home/citco/PYTHON101/python_training_2025_/util/logger.py", line 28, in wrapper
+    result = function_pointer(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/citco/PYTHON101/python_training_2025_/bll/contacts_bll.py", line 17, in retrieve_contacts
+    raise Exception("Error in business layer")
+Exception: Error in business layer
+2025-10-09 14:01:12,400 - MyApp - INFO - logger.py:wrapper::32 - End: display_contacts
+2025-10-09 14:01:13,572 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 14:01:13,572 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 14:01:13,572 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:01:13,572 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7ae5f5b1f9e0>,)] -- [{}]
+2025-10-09 14:01:13,572 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:01:13,572 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7ae5f5ce83e0>,)] -- [{}]
+2025-10-09 14:01:13,573 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 14:01:13,573 - MyApp - ERROR - logger.py:wrapper::30 - Error in business layer
+Traceback (most recent call last):
+  File "/home/citco/PYTHON101/python_training_2025_/util/logger.py", line 28, in wrapper
+    result = function_pointer(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/citco/PYTHON101/python_training_2025_/bll/contacts_bll.py", line 17, in retrieve_contacts
+    raise Exception("Error in business layer")
+Exception: Error in business layer
+2025-10-09 14:01:13,574 - MyApp - INFO - logger.py:wrapper::32 - End: display_contacts
+2025-10-09 14:01:35,108 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 14:01:35,108 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 14:01:35,108 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:01:35,108 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x71f5720239b0>,)] -- [{}]
+2025-10-09 14:01:35,109 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:01:35,109 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x71f572034830>,)] -- [{}]
+2025-10-09 14:01:35,109 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 14:01:35,109 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 14:01:35,109 - MyApp - INFO - logger.py:wrapper::32 - End: display_contacts
+2025-10-09 14:06:03,473 - MyApp - INFO - logger.py:wrapper::25 - Begin: display_contacts
+2025-10-09 14:06:03,473 - MyApp - INFO - logger.py:wrapper::26 - [()] -- [{}]
+2025-10-09 14:06:03,473 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:06:03,474 - MyApp - INFO - logger.py:wrapper::26 - [(<bll.contacts_bll.ContactsBll object at 0x7aa4d5babd70>,)] -- [{}]
+2025-10-09 14:06:03,474 - MyApp - INFO - logger.py:wrapper::25 - Begin: retrieve_contacts
+2025-10-09 14:06:03,474 - MyApp - INFO - logger.py:wrapper::26 - [(<dal.contacts_dal.ContactsJsonDao object at 0x7aa4d6602d20>,)] -- [{}]
+2025-10-09 14:06:03,474 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 14:06:03,474 - MyApp - INFO - logger.py:wrapper::32 - End: retrieve_contacts
+2025-10-09 14:06:03,474 - MyApp - INFO - logger.py:wrapper::32 - End: display_contacts
